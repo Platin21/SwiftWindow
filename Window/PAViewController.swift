@@ -9,7 +9,7 @@
 import AppKit
 import SpriteKit
 
-let AppName = "myApp";
+let AppName = "Window";
 let beginSizeW = 800;
 let beginSizeH = 600;
 
