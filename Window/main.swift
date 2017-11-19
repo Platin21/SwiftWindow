@@ -8,8 +8,9 @@
 
 import AppKit
 
-let myApp = NSApplication.shared()
+// Window Setup Stuff don't touch it !
+let myApp = NSApplication.shared
 let controller = PAViewController()
-
+myApp.mainMenu = controller.mainMenu;
 myApp.delegate = controller;
 myApp.run()
